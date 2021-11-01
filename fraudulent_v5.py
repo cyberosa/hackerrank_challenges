@@ -17,7 +17,7 @@ def compute_double_median(counts, goal_index, d):
     # we can build the array just by taking the counts > 0
     # we need to reach the goal index,
     # no need to build any window array
-    # cummulative counts in output that gives us the current position of the value
+    # cumulative counts in output that gives us the current position of the value
     # warning: position starting in 1, not in 0!
     output = [0 for i in range(201)]
     for i in range(201):
